@@ -6,11 +6,11 @@
 
 /**
  * ritorna la parola inserita come parametro al contrario
- * @param {string} parola la parola da girare
+ * @param {string} word la parola da girare
  * @returns la parola girata
  */
-function reverseString(parola) {
-  return parola.split('').reverse().join('')
+function reverseString(word) {
+  return word.split('').reverse().join('');
 }
 
 reverseString('ciao')
