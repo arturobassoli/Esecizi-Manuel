@@ -13,8 +13,8 @@
  * @returns true or false se le parole sono anagrammi o meno
  */
 function isAnagram (firstWord, secondWord) {
-  let firstWordSorted = sortWord(firstWord);
-  let secondWordSorted = sortWord(secondWord);
+  const firstWordSorted = sortWord(firstWord);
+  const secondWordSorted = sortWord(secondWord);
   return firstWordSorted === secondWordSorted
 }
 
