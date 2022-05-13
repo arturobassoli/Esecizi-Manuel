@@ -13,7 +13,7 @@
  * @returns numero invertito
  */
 function reverseInt(num) {
-  let numToArray = num.toString().split("").reverse();
+  const numToArray = num.toString().split("").reverse();
 
   if (num < 0) {
     numToArray.pop();

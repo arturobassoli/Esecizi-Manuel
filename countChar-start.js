@@ -13,7 +13,7 @@
  */
 function countChar(word) {
   const wordToArray = word.split("");
-  let letterCount = {};
+  const letterCount = {};
 
   wordToArray.forEach(function (element) {
     if (letterCount[element]) {

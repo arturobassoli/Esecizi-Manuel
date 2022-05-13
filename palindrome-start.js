@@ -11,8 +11,8 @@
    * @returns true se la parola è palindoma false se non lo è
    */
   function isPalindrome (word) {
-    let initialWord = word;
-    let reverseWord = word.split('').reverse().join('');
+    const initialWord = word;
+    const reverseWord = word.split('').reverse().join('');
     return initialWord === reverseWord
   }
 
